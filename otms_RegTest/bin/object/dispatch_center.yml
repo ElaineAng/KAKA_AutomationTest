@@ -1,0 +1,334 @@
+---
+tab:
+  category: button
+  en: Dispatch Center
+  zh: 订单分配
+
+sub_tab:
+  category: tab
+  released_orders:
+    en: Released orders
+    zh: /已释放订单.*/
+  under_allocation:
+    en: Under allocation
+    zh: /确认分配.*/
+  origin_split_box:
+    en: Origin Split Box
+    zh: /原始运单.*/
+  shipment_outbox:
+    en: Shipment Outbox
+    zh: /已发运单.*/
+  vendor:
+    en: Vendor
+    zh: 承运商
+  truck:
+    en: Truck
+    zh: 卡车
+
+select:
+  tariff_frame:
+    node: div
+    class: v-verticallayout
+    index: 6
+  my_truck:
+    category: button
+    en: Suggest MyTruck
+    zh: 选择车辆
+  base_rate:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div[2]/div/div/div/div[1]/div/div/div/div[1]/div[2]/input'
+  other_fees:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div[2]/div/div/div/div[1]/div/div/div/div[3]/div[2]/input'
+  offline_vendor_text:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div[2]/div/div/div/div[2]/div/div/div/div[1]/div[2]/div/input'
+  offline_vendor:
+    node: div
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div[2]/div/div/div/div[2]/div/div/div/div[1]/div[2]/div/div'
+  offline_vendor_confirm:
+    node: img
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div[2]/div/div/div/div[2]/div/div/div/div[2]/div/div/span/img'
+  tender:
+    category: button
+    en: Tender Order
+    zh: 订单询价
+
+my_truck:
+  table:
+    node: table
+    xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div/div[2]/div/div/div[4]/div[1]/table'
+  new_truck:
+    category: button
+    en: New Truck
+    zh: 新车辆
+
+new_truck:
+  category: tab
+  cargo_class:
+    en: Licensed for
+    zh: 车辆适用于
+  truck_type:
+    en: Truck type
+    zh: 车型
+  truck_length:
+    en: Truck length
+    zh: 车长
+  capacity:
+    en: Capacity
+    zh: 核载量
+  truck_plate:
+    en: 'Truck plate #'
+    zh: 车牌号
+  driver_name:
+    en: Driver name
+    zh: 司机姓名
+  driver_mobile:
+    en: Driver mobile
+    zh: 司机手机号码
+
+released_orders:
+  table:
+    node: table
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div[1]/div[2]/div/div/div[2]/div/div/div/div/div[2]/div/div/div[4]/div[1]/table'
+  table_remark:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div[1]/div[2]/div/div/div[2]/div/div/div/div/div[2]/div/div/div[2]/div/div/input[4]'
+  table_select_all:
+    node: img
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div[1]/div[2]/div/div/div[2]/div/div/div/div/div[2]/div/div/div[1]/div[1]/div/table/tbody/tr/td[2]/div[3]/img'
+  consolidate_table:
+    node: table
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div[1]/div[2]/div/div/div[2]/div/div/div[2]/div/div/div[2]/div/div/div[2]/div[1]/table'
+  group_table:
+    node: table
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div[1]/div[2]/div/div/div[2]/div/div/div[2]/div/div/div[2]/div/div/div[2]/div[1]/table'
+
+consolidate:
+  category: menu
+  tab:
+    en: Consolidate orders by lane
+    zh: 按照路线整合订单
+  by_province:
+    en: Province level
+    zh: 按照省
+  by_town:
+    en: Town level
+    zh: 按照城市
+  by_county:
+    en: County level
+    zh: 按照区县
+  by_postcode_5:
+    en: Postcode 5 digits
+    zh: 按照邮政编码前5位
+  by_postcode_6:
+    en: Postcode 6 digits
+    zh: 按照6位邮政编码
+
+consolidate_preview_table:
+  node: table
+  xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[4]/div[1]/table'
+
+group:
+  category: menu
+  by_origin:
+    en:
+    zh: 拆分—按始发地汇总
+  by_destination:
+    en:
+    zh: 拆分—按目的地汇总
+  by_province:
+    en: Province level
+    zh: 按照省
+  by_town:
+    en: Town level
+    zh: 按照城市
+  by_county:
+    en: County level
+    zh: 按照区县
+  by_postcode_5:
+    en: Postcode 5 digits
+    zh: 按照邮政编码前5位
+  by_postcode_6:
+    en: Postcode 6 digits
+    zh: 按照6位邮政编码
+
+under_allocation:
+  table:
+    category: tables
+    index: 1
+  table_remark:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/div[2]/div/div/div[2]/div/div/input[6]'
+  online_vendor:
+    node: img
+    src: /.*otmsIconDC.png/
+  offline_vendor:
+    node: img
+    src: /.*otmsIconDC_offline.png/
+  batch_allocation:
+    category: menu
+    en: Batch Allocation
+    zh: 批量分配
+  batch_table:
+    node: table
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div/div/div[1]/div/div/div[4]/div[1]/table'
+  batch_table_vendor:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div/div/div[1]/div/div/div[2]/div/div/input[2]'
+
+origin_split_box:
+  table:
+    node: table
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div[3]/div[2]/div/div/div[2]/div/div/div/div[1]/div/div/div/div/div[2]/div/div/div[4]/div[1]/table'
+  table_remark:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div[3]/div[2]/div/div/div[2]/div/div/div/div[1]/div/div/div/div/div[2]/div/div/div[2]/div/div/input[3]'
+  table_order:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div[1]/div[2]/div/div/div[2]/div/div/div/div/div[2]/div/div/div[2]/div/div/input[3]'
+
+shipment_outbox:
+  table:
+    node: table
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div[4]/div[2]/div/div/div[2]/div/div/div/div[1]/div/div/div/div/div[2]/div/div/div[4]/div[1]/table'
+  table_remark:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div[4]/div[2]/div/div/div[2]/div/div/div/div[1]/div/div/div/div/div[2]/div/div/div[2]/div/div/input[3]'
+
+split_pickup:
+  category: text_0
+  hub:
+    en: Pickup Hub
+    zh: 中转站
+  in:
+    en: Delivery to hub
+    zh: 到达中转站时间
+  out:
+    en: Pickup from hub
+    zh: 中转站发出时间
+
+split_delivery:
+  category: text_1
+  hub:
+    en: Pickup Hub
+    zh: 中转站
+  in:
+    en: Delivery to hub
+    zh: 到达中转站时间
+  out:
+    en: Pickup from hub
+    zh: 中转站发出时间
+
+tender:
+  table:
+    node: table
+    xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div[2]/div/div[1]/div/div[2]/div[1]/table'
+  free_bidding:
+    node: label
+    en: Free bidding
+    zh: 常规询价
+  fifo:
+    node: label
+    en: 'FIFO price of:'
+    zh: '目标价（先到先得）:'
+  fifo_price:
+    node: text_field
+    xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div[2]/div/div/div[2]/div/div/div/div/div[3]/div/input'
+  auction_time:
+    node: text_field
+    xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div[2]/div/div/div[2]/div/div/div/div/div[4]/div/input'
+  send:
+    category: button
+    en: Send
+    zh: 发送
+
+# split:
+#   src: order_split
+#   pickup_hub:
+#     node: div
+#     xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div[2]/div/div/div[2]/div/div/div/div/div[1]/div[2]/div/div'
+#     delivery_date:
+#       node: text_field
+#       xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div[2]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/input'
+#       time_window:
+#         node: div
+#         xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div[2]/div/div/div[2]/div/div/div/div/div[3]/div[2]/div/div'
+#     pickup_date:
+#       node: text_field
+#       xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div[2]/div/div/div[2]/div/div/div/div/div[4]/div[2]/div/input'
+#       time_window:
+#         node: div
+#         xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div[2]/div/div/div[2]/div/div/div/div/div[5]/div[2]/div/div'
+#   delivery_hub:
+#     node: div
+#     xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div[2]/div/div/div[2]/div/div/div/div/div[6]/div[2]/div/div'
+#     delivery_date:
+#       node: text_field
+#       xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div[2]/div/div/div[2]/div/div/div/div/div[7]/div[2]/div/input'
+#       time_window:
+#         node: div
+#         xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div[2]/div/div/div[2]/div/div/div/div/div[8]/div[2]/div/div'
+#     pickup_date:
+#       node: text_field
+#       xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div[2]/div/div/div[2]/div/div/div/div/div[9]/div[2]/div/input'
+#       time_window:
+#         node: div
+#         xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div[2]/div/div/div[2]/div/div/div/div/div[10]/div[2]/div/div'
+
+# button:
+#   node: span
+#   node_class: v-button-caption
+#   tender_order:
+#     en: Tender Order
+#     zh: 订单询价
+#   send_tender:
+#     en: Send
+#     zh: 发送
+#   cancel_tender:
+#     en: Cancel
+#     zh: 取消
+#   accept:
+#     en: Accept
+#     zh: 接受
+#   save_and_close:
+#     en: Save and close
+#     zh: 保存并关闭
+
+# text:
+#   node: div
+#   node_class: v-captiontext
+#   split_date:
+#     en: 'Pickup date:'
+#     zh: '提货日期:'
+
+# popup:
+#   truck_table:
+#     node: table
+#     xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div/div[2]/div/div/div[4]/div[1]/table'
+#   truck_allocate:
+#     node: span
+#     node_class: v-button-caption
+#     en: Allocate to selected trucks
+#     zh: 分配给选择的车辆
+#   consolidate_preview:
+#     node: table
+#     xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[4]/div[1]/table'
+#   tender:
+#     table:
+#       node: table
+#       xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div[2]/div/div[1]/div/div[2]/div[1]/table'
+#     free_bidding:
+#       node: label
+#       en: Free bidding
+#       zh: 常规询价
+#     fifo:
+#       node: label
+#       en: 'FIFO price of:'
+#       zh: '目标价（先到先得）:'
+#     fifo_price:
+#       node: text_field
+#       xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div[2]/div/div/div[2]/div/div/div/div/div[3]/div/input'
+#     auction_time:
+#       node: text_field
+#       xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div[2]/div/div/div[2]/div/div/div/div/div[4]/div/input'

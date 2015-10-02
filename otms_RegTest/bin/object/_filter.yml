@@ -1,0 +1,46 @@
+oc:
+  inbox:
+    remark:
+      node: text_field
+      index: 3
+dc:
+  released_orders:
+    remark:
+      node: text_field
+      index: 3
+  under_allocation:
+    remark:
+      node: text_field
+      index: 5
+
+tt:
+  sr:
+    remark:
+      node: text_field
+      index: 3
+    erp:
+      node: text_field
+      index: 4
+  sp:
+    remark:
+      node: text_field
+      index: 4
+    erp:
+      node: text_field
+      index: 5
+
+mc:
+  my_trucks:
+    truck_plate:
+      node: text_field
+      index: 0
+  tariff:
+    name:
+      node: text_field
+      index: 1
+
+mam:
+  otms_companies:
+    code:
+      node: text_field
+      index: 1

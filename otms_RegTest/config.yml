@@ -1,0 +1,18 @@
+---
+env: uat
+url:
+  demo: demo.otms.cn
+  uat: uat.otms.cn:8080/opentms
+  test: 192.168.1.33:8443
+  dev: 192.168.1.142:8080
+app_path:
+  otms: "/"
+  xtt: "/ws/xtt"
+sub_app_path:
+  mam: "/6WMtEe8SJCrlq9HaGJBlF5V9o1r9KGy24vQ4ZzMBwk5j5Vi2ppIOtyofTV7LEUtdAJB"
+  ws: "/ws"
+browser: chrome
+lang: zh
+i18n:
+- zh
+- en

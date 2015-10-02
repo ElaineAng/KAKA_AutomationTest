@@ -1,0 +1,22 @@
+---
+mail:
+  address: otmst@sina.cn
+  mail_set:
+    address: pop.sina.cn
+    port: 110
+    user_name: otmst
+    password: oTMStesting
+phone:
+  address: '18601757683'
+device:
+  xtt:
+    appName: xtt-test
+    appVersion: 100.0.1
+    osName: Ubuntu
+    osVersion: 101
+  driver:
+    appName: driver-test
+    appVersion: 100.0.2
+    osName: Debian
+    osVersion: 102
+file: bin/data/xtt.jpg

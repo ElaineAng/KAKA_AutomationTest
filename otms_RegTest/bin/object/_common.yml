@@ -1,0 +1,123 @@
+---
+table:
+  node: table
+  class: v-table-table
+
+table_header:
+  node: div
+  class: v-table-header
+
+filters:
+  node: div
+  class: filters-panel
+
+button:
+  category: button
+  add_record:
+    en: New
+    zh: 新建
+  edit_record:
+    en: Edit
+    zh: 编辑
+  clone_record:
+    en: Clone
+    zh: 复制
+    index: -1
+  save_record:
+    en: Save
+    zh: 保存
+    index: -1
+  save_and_close_record:
+    en: 'Save&Close'
+    zh: 保存并关闭
+    index: -1
+  delete_record:
+    en: Delete
+    zh: 删除
+  exit_record:
+    en: 'Cancel/Close'
+    zh: 取消
+  update:
+    en: Update
+    zh: 更新
+  'yes':
+    en: 'YES'
+    zh: 是
+  'no':
+    en: 'NO'
+    zh: 否
+  'confirm':
+    en: 'Yes'
+    zh: 确定
+  'cancel':
+    en: 'Cancel'
+    zh: 取消
+
+popup:
+  message:
+    node: h1
+  content:
+    node: div
+    class: popupContent
+  content_close:
+    node: div
+    class: v-window-closebox
+  waiting:
+    node: div
+    class: v-loading-indicator-wait
+  loading:
+    node: div
+    class: v-window-header
+    en: Operation in progress
+    zh: 运行中
+  suggest_menu:
+    node: div
+    class: v-filterselect-suggestmenu
+  suggest:
+    node: div
+    class: v-filterselect-suggestpopup
+
+new_popup:
+  node: div
+  class: popupContent
+  index: 1
+
+new_popup_close:
+  node: div
+  class: v-window-closebox
+  index: 1
+
+time_window:
+  category: text
+  whole_day:
+    en: Whole day (24 hours)
+    zh: 全天 (24小时)
+  business_hours:
+    en: Business hours (8-6pm)
+    zh: 工作时间 (8:00-18:00)
+  morning:
+    en: Morning (6-12pm)
+    zh: 上午 (6:00-12:00)
+  afternoon:
+    en: Afternoon (12-6pm)
+    zh: 下午 (12:00-18:00)
+  evening:
+    en: Evening (6-12am)
+    zh: 晚上 (18:00-24:00)
+  night:
+    en: Night (12-6am)
+    zh: 凌晨 (0:00-6:00)
+
+panels:
+  node: divs
+  class: v-tabsheet-tabsheetpanel
+
+main_panel:
+  node: div
+  class: v-tabsheet-tabsheetpanel
+  index: 1
+
+main_view:
+  node: div
+  class: v-verticallayout
+  index: 1

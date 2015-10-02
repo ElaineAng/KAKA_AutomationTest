@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<orderImportRequest version="0.1" login="" password="">
+  <orders>
+    <order sequence="1">
+      <clientReferenceNumber>id-20141231</clientReferenceNumber>
+      <erpNumber>erp-20141231</erpNumber>
+      <shipFrom>
+        <companyName>上海闵行总公司</companyName>
+        <postcode>201100</postcode>
+        <town>闵行区</town>
+        <address>上海市莲花路1号</address>
+        <loading>true</loading>
+        <xttSupport>true</xttSupport>
+        <contact>
+          <name>小李</name>
+          <phone>88889999</phone>
+          <phoneAreaCode>021</phoneAreaCode>
+          <mobile>18601757681</mobile>
+          <email>otmst@sina.cn</email>
+        </contact>
+        <locationRemarks>shipFromLocationRemarks</locationRemarks>
+        <timeWindow>1</timeWindow>
+        <weekdays>1</weekdays>
+      </shipFrom>
+      <shipTo>
+        <companyName>苏州分公司</companyName>
+        <postcode>215100</postcode>
+        <town>苏州工业园区</town>
+        <address>江苏省苏州市干将东路1号</address>
+        <loading>true</loading>
+        <xttSupport>true</xttSupport>
+        <contact>
+          <name>小超</name>
+          <phone>99998888</phone>
+          <phoneAreaCode>0571</phoneAreaCode>
+          <mobile>18601757682</mobile>
+          <email>otmst@sina.cn</email>
+        </contact>
+        <locationRemarks>shipToLocationRemarks</locationRemarks>
+        <timeWindow>2</timeWindow>
+        <weekdays>2</weekdays>
+      </shipTo>
+      <timeSchedule>
+        <pickupDate>2015-06-15</pickupDate>
+        <deliveryDate>2015-06-18</deliveryDate>
+      </timeSchedule>
+      <autoProcessMode>3</autoProcessMode>
+      <cargoDetails>
+        <totalQuantity>100</totalQuantity>
+        <totalWeight>3000</totalWeight>
+        <totalVolume>50</totalVolume>
+        <cargoType>1</cargoType>
+        <packageType>A</packageType>
+      </cargoDetails>
+      <transportMode>
+        <transportType>LTL</transportType>
+        <truckType>1</truckType>
+        <truckLength>5.2</truckLength>
+      </transportMode>
+      <!-- <orderLines>
+        <orderLine>
+          <cargoDescription>
+          <productCode>YMwyNLXH</productCode>
+          <productName>0128990123456789</productName>
+          <unitType>4</unitType>
+          <unitLength>3</unitLength>
+          <unitWidth>1.77</unitWidth>
+          <unitHeight>1.88</unitHeight>
+          <unitWeight>177</unitWeight>
+          </cargoDescription>
+          <quantity>90</quantity>
+        </orderLine>
+      </orderLines> -->
+    </order>
+  </orders>
+</orderImportRequest>

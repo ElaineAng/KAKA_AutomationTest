@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<orderPartialUpdateRequest version="0.1" login="WewJEnLN" password="LdL3por0NGPX0urr">
+  <partialOrders>
+    <partialOrder sequence="0">
+      <orderNumber></orderNumber>
+      <erpNumber/>
+      <hideOrderLines/>
+      <shipFromRemarks>updated shipFromRemarks</shipFromRemarks>
+      <shipToRemarks>updated shipToRemarks</shipToRemarks>
+      <transportRemarks>updated transportRemarks</transportRemarks>
+      <pickupRemarks>updated pickupRemarks</pickupRemarks>
+      <deliveryRemarks>updated deliveryRemarks</deliveryRemarks>
+      <clientRemarks>updated clientRemarks</clientRemarks>
+      <totalWeight>1001</totalWeight>
+      <totalVolume>51</totalVolume>
+
+      <!-- <orderCustomFields>
+        <customText9>abcd</customText9>
+      </orderCustomFields>
+      <shipFromCustomFields>
+        <customEnum9>option</customEnum9>
+      </shipFromCustomFields>
+      <shipToCustomFields>
+        <customNum9>10</customNum9>
+      </shipToCustomFields>
+      <orderLinesCustomFields>
+        <orderLineCustomFields>
+          <customEnum9>option</customEnum9>
+        </orderLineCustomFields>
+      </orderLinesCustomFields> -->
+
+    </partialOrder>
+  </partialOrders>
+</orderPartialUpdateRequest>

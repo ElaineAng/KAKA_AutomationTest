@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<shipPointRemoveRequest version="0.1" login="" password="">
+  <shipPoints>
+    <shipPoint sequence="1">
+      <clientCode></clientCode>
+      <clientReferenceNumber></clientReferenceNumber>
+      <type></type>
+      <externalId></externalId>
+    </shipPoint>
+  </shipPoints>
+</shipPointRemoveRequest>

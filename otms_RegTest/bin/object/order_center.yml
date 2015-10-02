@@ -1,0 +1,545 @@
+---
+tab:
+  category: button
+  en: Order Center
+  zh: 订单中心
+
+sub_tab:
+  category: tab
+  order_inbox:
+    en: Order Inbox
+    zh: 订单中心
+  order_edit_area:
+    en: Order Edit Area
+    zh: 订单编辑
+  batch_merge_area:
+    en: Batch Merge Area
+    zh: 自动批量合并
+  inbox:
+    en: /Order Inbox.*/
+    zh: /收件箱.*/
+  tender_box:
+    en: /Tender Box.*/
+    zh: /询价订单.*/
+  draft_box:
+    en: /Draft Box.*/
+    zh: /草稿箱.*/
+  merged_box:
+    en: /Merged Orders Box.*/
+    zh: /已合并订单存档.*/
+  recalled_box:
+    en: /Orders recalled by Us or rejected by Vendor.*/
+    zh: /召回的订单或承运商拒绝的订单.*/
+  released_box:
+    en: /Released / Under allocation.*/
+    zh: /已释放订单.*/
+  outbox:
+    en: /Order Outbox.*/
+    zh: /已分配订单.*/
+
+inbox:
+  new_order:
+    category: button
+    en: New
+    zh: 新建
+  edit_order:
+    category: button
+    en: Edit
+    zh: 编辑
+  clone_order:
+    category: button
+    en: Clone
+    zh: 复制
+  save:
+    node: span
+    en: Save
+    zh: 保存
+  save_and_close:
+    node: span
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[2]/div/div/div[2]/div/div[2]/div/div/div[1]/div/div/div/div[5]/div/div/span/span'
+  cancel_and_close:
+    node: span
+    en: Cancel/Close
+    zh: 取消
+  one_click_dispatch:
+    node: span
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div/div/div/div[1]/div/div/span/span'
+  allocate_only:
+    node: span
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div/div/div/div[2]/div/div/span/span'
+  delete:
+    category: button
+    en: Delete
+    zh: 删除
+  release:
+    category: button
+    en: Release
+    zh: 发送
+  export:
+    category: button
+    en: Export
+    zh: 导出
+  batch_dispatch:
+    category: button
+    en: Batch dispatch
+    zh: 批量分配
+  accept:
+    node: span
+    en: Accept
+    zh: 报价
+  dismiss:
+    node: span
+    en: Dismiss
+    zh: 忽略
+  merge:
+    node: span
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[2]/div/div/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[4]/div/div/span/span'
+  unmerge:
+    category: button
+    en: Unmerge
+    zh: 取消合并
+  bulk_update_pickup:
+    category: button
+    en: Bulk Update Pickup
+    zh: 批量设置提货日期
+  view_in_new_window:
+    category: button
+    en: View in new window
+    zh: 在新窗口查看
+  table_order:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[1]/div[2]/div/div/div[2]/div/div/div[2]/div/div/input[3]'
+  table_remark:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[1]/div[2]/div/div/div[2]/div/div/div[2]/div/div/input[4]'
+  table_select_all:
+    node: img
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[1]/div[2]/div/div/div[2]/div/div/div[1]/div[1]/div/table/tbody/tr/td[1]/div[3]/img'
+  table_source:
+    node: div
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[1]/div[2]/div/div/div[2]/div/div/div[2]/div/div/div[1]/div'
+  table_source_manual:
+    node: span
+    en: Manual
+    zh: 手工输入
+
+tender_box:
+  table_select_all:
+    node: img
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div[1]/div/table/tbody/tr/td[1]/div[3]/img'
+  table_remark:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div/div/input[5]'
+
+draft_box:
+  table_order:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[3]/div[2]/div/div/div[2]/div/div/div[2]/div/div/input[3]'
+  table_remark:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[3]/div[2]/div/div/div[2]/div/div/div[2]/div/div/input[4]'
+  table_select_all:
+    node: img
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[3]/div[2]/div/div/div[2]/div/div/div[1]/div[1]/div/table/tbody/tr/td[1]/div[3]/img'
+
+merged_box:
+  table_remark:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[4]/div[2]/div/div/div[2]/div/div/div[2]/div/div/input[4]'
+  table_select_all:
+    node: img
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[4]/div[2]/div/div/div[2]/div/div/div[1]/div[1]/div/table/tbody/tr/td[1]/div[3]/img'
+
+recalled_box:
+  table_remark:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[5]/div[2]/div/div/div[2]/div/div/div[2]/div/div/input[5]'
+  table_select_all:
+    node: img
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[5]/div[2]/div/div/div[2]/div/div/div[1]/div[1]/div/table/tbody/tr/td[1]/div[3]/img'
+
+released_box:
+  table_remark:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[7]/div[2]/div/div/div[2]/div/div/div[2]/div/div/input[4]'
+  table_select_all:
+    node: img
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[7]/div[2]/div/div/div[2]/div/div/div[1]/div[1]/div/table/tbody/tr/td[1]/div[3]/img'
+
+outbox:
+  table_remark:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[8]/div[2]/div/div/div[2]/div/div/div[2]/div/div/input[3]'
+
+edit_area:
+  tabs:
+    node: table
+    class: v-tabsheet-tabs v-tabsheet-tabs-minimal
+    index: 1
+  new_order:
+    node: span
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[2]/div/div/div[2]/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/span/span'
+  clone_order:
+    node: span
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[2]/div/div/div[2]/div/div[2]/div/div/div[1]/div/div/div/div[3]/div/div/span/span'
+  # first_tab:
+    # node: div
+    # xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[1]/table/tbody/tr/td[1]/div/div/div[1]'
+  client:
+    node: div
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div[2]/div/div/div[1]/div/div'
+  remark:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div/div[2]/div[2]/input'
+  erp:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div/div[3]/div[2]/input'
+  location:
+    node: div
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div/div[2]/div/div/div/div[3]/div/div/div/div[1]/div[2]/div/div'
+  ship_info:
+    node: div
+    node_class: v-label v-label-cursor-pointer cursor-pointer
+  product_qty:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[3]/div[2]/div/div/div[1]/div/div/div/div[2]/div/div/div[2]/div[1]/table/tbody/tr/td[6]/div/input'
+  product_cal:
+    category: button
+    en: Calculate
+    zh: 计算
+  product_value:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[3]/div[2]/div/div/div[1]/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div[2]/div[2]/input'
+  ship_from_remark:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div/div[1]/div[2]/div/div/div[1]/div/div/div/div/div[12]/div/div/div/div[1]/div[2]/input'
+  ship_to_remark:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[1]/div/div/div/div/div[12]/div/div/div/div[1]/div[2]/input'
+  ship_from_name:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div/div[1]/div[2]/div/div/div[1]/div/div/div/div/div[5]/div[2]/input'
+  ship_from_internal_id:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div/div[1]/div[2]/div/div/div[1]/div/div/div/div/div[6]/div[2]/div/input'
+  ship_from_address:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div/div[1]/div[2]/div/div/div[1]/div/div/div/div/div[7]/div[2]/input'
+  ship_from_contact:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div/div[1]/div[2]/div/div/div[1]/div/div/div/div/div[8]/div[2]/input'
+  ship_from_phone:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div/div[1]/div[2]/div/div/div[1]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[1]/input'
+  ship_from_mobile:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div/div[1]/div[2]/div/div/div[1]/div/div/div/div/div[10]/div/div/div/div[1]/div[2]/input'
+  ship_to_name:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[1]/div/div/div/div/div[5]/div[2]/input'
+  ship_to_internal_id:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[1]/div/div/div/div/div[6]/div[2]/div/input'
+  ship_to_address:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[1]/div/div/div/div/div[7]/div[2]/input'
+  ship_to_contact:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[1]/div/div/div/div/div[8]/div[2]/input'
+  ship_to_phone:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[1]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[1]/input'
+  ship_to_mobile:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[1]/div/div/div/div/div[10]/div/div/div/div[1]/div[2]/input'
+  transport_remark:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[4]/div[2]/div/div/div[1]/div/div/div/div[2]/div/div/div/div[1]/div[2]/input'
+  pickup_date:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[5]/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div/div/div[1]/div[2]/div/input'
+  pickup_remark:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[5]/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div/div/div[3]/div[2]/input'
+  lead_time:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[5]/div[2]/div/div/div[1]/div/div/div/div[2]/div[2]/input'
+  delivery_date:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[5]/div[2]/div/div/div[1]/div/div/div/div[3]/div/div/div/div/div[1]/div[2]/div/input'
+  delivery_remark:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[5]/div[2]/div/div/div[1]/div/div/div/div[3]/div/div/div/div/div[3]/div[2]/input'
+  calculate_cost:
+    category: button
+    en: Calculate cost
+    zh: 计算成本
+  clear_cost:
+    category: button
+    en: Clear cost / re-enable editing
+    zh: 清空成本/重新编辑
+  calculate_rates:
+    category: button
+    en: Calculate rates
+    zh: 计算费率
+  clear_rates:
+    category: button
+    en: Clear rates / re-enable editing
+    zh: 清空费率 / 重新编辑
+  base_rate:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[6]/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div/div[5]/div/div/div/div/div[1]/div[2]/input'
+  other_fees:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[6]/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div/div[5]/div/div/div/div/div[3]/div[2]/input'
+  tariff_frame:
+    node: div
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[6]/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div/div[3]/div/div/div[2]/div/div'
+
+batch_merge_area:
+  merge:
+    node: span
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[2]/div/div/div[2]/div/div[3]/div/div/div[2]/div/div/div/div[2]/div/div/span/span'
+  by_free_dates:
+    category: button
+    en: Free dates
+    zh: 合并不同日期订单
+  table_select_all:
+    node: img
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[1]/div[1]/div/table/tbody/tr/td[1]/div[3]/img'
+  table_select_state:
+    node: div
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div[1]/div'
+  table_state:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div[1]/input'
+  table_ship_from:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/input[3]'
+  table_ship_to:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/input[4]'
+
+merge:
+  by_delay_dates_and_merge:
+    category: button
+    en: "Delay dates & merge"
+    zh: "选择较晚时间&合并"
+  by_merge_without_extending:
+    category: button
+    en: "Merge without extending"
+    zh: "合并但不改变日期"
+  table:
+    node: table
+    xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div[1]/div/div/div[4]/div[1]/table'
+  table_merge:
+    node: span
+    xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div/div[1]/div/div/div/div[2]/div/div/span/span'
+  table_select_all:
+    node: img
+    xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div[1]/div/div/div[1]/div[1]/div/table/tbody/tr/td[1]/div[3]/img'
+  table_by_free_dates:
+    category: button
+    en: Free dates
+    zh: 合并不同日期订单
+  summary_text:
+    node: div
+    xpath: '/html/body/div[3]/div/div/div/div[3]/div/div/div/div[1]/div/div/div[2]/div/div/div[1]/div/div'
+
+release_option:
+  adjust_dates:
+    category: button
+    en: Adjust dates
+    zh: 调整日期
+  keep_dates:
+    category: button
+    en: Keep dates
+    zh: 日期不变
+
+batch_dispatch:
+  directly:
+    node: span
+    xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div[1]/div/div/span/span'
+  allocate_only:
+    node: span
+    xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div[2]/div/div/span/span'
+batch_dispatch_options:
+  category: radio
+  adjust_weekdays:
+    en: Adjust weekdays
+    zh: 调整为工作日
+  keep_dates:
+    en: Keep dates
+    zh: 保持原日期
+  cheapest_rate:
+    en: Cheapest rate
+    zh: 价格最低
+  shortest_leadtime:
+    en: Shortest leadtime
+    zh: 时间最短
+batch_dispatch_summary:
+  dispatched:
+    node: div
+    xpath: '/html/body/div[3]/div/div/div/div[3]/div/div/div/div[1]/div/div/div/div/div[3]/div/div'
+  dispatched_count:
+    node: div
+    xpath: '/html/body/div[3]/div/div/div/div[3]/div/div/div/div[1]/div/div/div/div/div[4]/div/div'
+  released:
+    node: div
+    xpath: '/html/body/div[3]/div/div/div/div[3]/div/div/div/div[1]/div/div/div/div/div[5]/div/div'
+  released_count:
+    node: div
+    xpath: '/html/body/div[3]/div/div/div/div[3]/div/div/div/div[1]/div/div/div/div/div[6]/div/div'
+  under_allocation:
+    node: div
+    xpath: '/html/body/div[3]/div/div/div/div[3]/div/div/div/div[1]/div/div/div/div/div[7]/div/div'
+  under_allocation_count:
+    node: div
+    xpath: '/html/body/div[3]/div/div/div/div[3]/div/div/div/div[1]/div/div/div/div/div[8]/div/div'
+  incomplete:
+    node: div
+    xpath: '/html/body/div[3]/div/div/div/div[3]/div/div/div/div[1]/div/div/div/div/div[9]/div/div'
+  incomplete_count:
+    node: div
+    xpath: '/html/body/div[3]/div/div/div/div[3]/div/div/div/div[1]/div/div/div/div/div[10]/div/div'
+
+
+# button:
+#   node: span
+#   node_class: v-button-caption
+#   accept:
+#     en: Accept
+#     zh: 报价
+#   dismiss:
+#     en: Dismiss
+#     zh: 忽略
+#   cancel:
+#     en: Cancel
+#     zh: 取消
+#   'yes':
+#     en: 'YES'
+#     zh: 是
+#   'no':
+#     en: 'NO'
+#     zh: 否
+
+# popup:
+#   message:
+#     node: h1
+#   loading:
+#     node: div
+#     node_class: v-window-header
+#     en: Operation in progress
+#     zh: 运行中
+#   msg_yes:
+#     node: span
+#     node_class: v-button-caption
+#     en: Yes
+#     zh: 确定
+#   msg_cancel:
+#     node: span
+#     node_class: v-button-caption
+#     en: Cancel
+#     zh: 取消
+#   msg_delete_yes:
+#     node: span
+#     node_class: v-button-caption
+#     en: YES
+#     zh: 是
+#   msg_delete_no:
+#     node: span
+#     node_class: v-button-caption
+#     en: NO
+#     zh: 否
+#   content:
+#     node: div
+#     node_class: popupContent
+#   content_close:
+#     node: div
+#     node_class: v-window-closebox
+#   suggest_menu:
+#     node: div
+#     node_class: v-filterselect-suggestmenu
+
+#   # popup batch dispatch
+#   dispatch_directly:
+#     node: span
+#     xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div[1]/div/div/span/span'
+#   allocate_only:
+#     node: span
+#     xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div[2]/div/div/span/span'
+#   batch_dispatch_options:
+#     adjust_weekdays:
+#       en: Adjust weekdays
+#       zh: 调整为工作日
+#     keep_dates:
+#       en: Keep dates
+#       zh: 保持原日期
+#     cheapest_rate:
+#       en: Cheapest rate
+#       zh: 价格最低
+#     shortest_leadtime:
+#       en: Shortest leadtime
+#       zh: 时间最短
+#   batch_dispatch_summary:
+#     dispatched:
+#       node: div
+#       xpath: '/html/body/div[3]/div/div/div/div[3]/div/div/div/div[1]/div/div/div/div/div[3]/div/div'
+#     dispatched_count:
+#       node: div
+#       xpath: '/html/body/div[3]/div/div/div/div[3]/div/div/div/div[1]/div/div/div/div/div[4]/div/div'
+#     released:
+#       node: div
+#       xpath: '/html/body/div[3]/div/div/div/div[3]/div/div/div/div[1]/div/div/div/div/div[5]/div/div'
+#     released_count:
+#       node: div
+#       xpath: '/html/body/div[3]/div/div/div/div[3]/div/div/div/div[1]/div/div/div/div/div[6]/div/div'
+#     under_allocation:
+#       node: div
+#       xpath: '/html/body/div[3]/div/div/div/div[3]/div/div/div/div[1]/div/div/div/div/div[7]/div/div'
+#     under_allocation_count:
+#       node: div
+#       xpath: '/html/body/div[3]/div/div/div/div[3]/div/div/div/div[1]/div/div/div/div/div[8]/div/div'
+#     incomplete:
+#       node: div
+#       xpath: '/html/body/div[3]/div/div/div/div[3]/div/div/div/div[1]/div/div/div/div/div[9]/div/div'
+#     incomplete_count:
+#       node: div
+#       xpath: '/html/body/div[3]/div/div/div/div[3]/div/div/div/div[1]/div/div/div/div/div[10]/div/div'
+
+#   # popup merge
+#   merge:
+#     table:
+#       node: xpath
+#       xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div[1]/div/div/div[4]/div[1]/table'
+#     table_merge:
+#       node: span
+#       xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div/div[1]/div/div/div/div[2]/div/div/span/span'
+#     table_select_all:
+#       node: img
+#       xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div[1]/div/div/div[1]/div[1]/div/table/tbody/tr/td[1]/div[3]/img'
+#     table_free_dates:
+#       node: span
+#       node_class: v-button-caption
+#       en: Free dates
+#       zh: 合并不同日期订单
+#     option:
+#       delay_dates_and_merge:
+#         en: "Delay dates & merge"
+#         zh: "选择较晚时间&合并"
+#       merge_without_extending:
+#         en: "Merge without extending"
+#         zh: "合并但不改变日期"
+#     summary_text:
+#       node: div
+#       xpath: '/html/body/div[3]/div/div/div/div[3]/div/div/div/div[1]/div/div/div[2]/div/div/div[1]/div/div'
+
+#   # popup bulk update pickup
+#   bulk_pickup_date:
+#     node: text_field
+#     xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div/div/div[1]/div[2]/div/input'
+#   bulk_update:
+#     node: span
+#     node_class: v-button-caption
+#     en: Update
+#     zh: 更新

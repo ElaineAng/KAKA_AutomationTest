@@ -1,0 +1,52 @@
+---
+checkbox:
+  category: checkbox
+  enabled:
+    index: 0
+  required:
+    index: 1
+  public:
+    index: 2
+  order_header:
+    index: 3
+  ship_from:
+    index: 4
+  ship_to:
+    index: 5
+  order_line:
+    index: 6
+  order_center:
+    index: 7
+  dispatch_center:
+    index: 8
+  track_and_trace:
+    index: 9
+  billing:
+    index: 10
+
+label:
+  category: text_field
+  english:
+    index: 0
+  chinese:
+    index: 1
+
+enum_options:
+  category: button
+  index: -1
+
+enum_option_button:
+  category: button
+  add:
+    index: 0
+  save:
+    index: 1
+
+enum_option_name:
+  category: text_field
+  logical:
+    index: -3
+  english:
+    index: -2
+  chinese:
+    index: -1

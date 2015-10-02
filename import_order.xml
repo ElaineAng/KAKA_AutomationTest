@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<orderImportRequest login="MqnoqYRf" password="FfQrPEs4EtMqKCNX" version="0.1">
+  <orders>
+    <order sequence="1">
+      <clientReferenceNumber>id-20150731170515</clientReferenceNumber>
+      <shipFrom>
+        <companyName>NYU Shanghai</companyName>
+        <postcode>200000</postcode>
+        <town>上海市城区（不含郊县）</town>
+        <address>上海市浦东新区陆家嘴软件园</address>
+        <loading>true</loading>
+        <xttSupport>true</xttSupport>
+        <contact>
+          <name>小李</name>
+          <phone>88889999</phone>
+          <phoneAreaCode>021</phoneAreaCode>
+          <mobile>13120500388</mobile>
+          <email>otms_test@hotmail.com</email>
+        </contact>
+        <locationRemarks>shipFromLocationRemarks</locationRemarks>
+        <timeWindow>1</timeWindow>
+        <weekdays>1</weekdays>
+      </shipFrom>
+      <shipTo>
+        <companyName>苏州分公司</companyName>
+        <postcode>215100</postcode>
+        <town>苏州工业园区</town>
+        <address>江苏省苏州市干将东路1号</address>
+        <loading>true</loading>
+        <xttSupport>true</xttSupport>
+        <contact>
+          <name>小超</name>
+          <phone>99998888</phone>
+          <phoneAreaCode>0571</phoneAreaCode>
+          <mobile>13120500388</mobile>
+          <email>otms_test@hotmail.com</email>
+        </contact>
+        <locationRemarks>shipToLocationRemarks</locationRemarks>
+        <timeWindow>2</timeWindow>
+        <weekdays>2</weekdays>
+      </shipTo>
+      <timeSchedule>
+        <pickupDate>2015-07-27</pickupDate>
+        <deliveryDate>2015-07-31</deliveryDate>
+      </timeSchedule>
+      <orderLines>
+        <orderLine>
+          <cargoDescription>
+            <productCode>CODE</productCode>
+            <productName>trousers</productName>
+            <unitType>4</unitType>
+            <unitLength>1</unitLength>
+            <unitWidth>2</unitWidth>
+            <unitHeight>1</unitHeight>
+            <unitWeight>30</unitWeight>
+          </cargoDescription>
+          <quantity>10</quantity>
+        </orderLine>
+      </orderLines>
+      <cargoDetails>
+        <totalQuantity>10</totalQuantity>
+        <totalWeight>300</totalWeight>
+        <totalVolume>20</totalVolume>
+        <cargoType>1</cargoType>
+        <packageType>A</packageType>
+      </cargoDetails>
+      <transportMode>
+        <transportType>LTL</transportType>
+        <truckType>2</truckType>
+      </transportMode>
+
+    </order>
+  </orders>
+</orderImportRequest>

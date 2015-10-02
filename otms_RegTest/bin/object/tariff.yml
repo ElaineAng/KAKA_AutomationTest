@@ -1,0 +1,83 @@
+---
+tariff_sub_tab:
+  category: tab
+  general:
+    en: General
+    zh: 报价
+  accessorial_fees:
+    en: Accessorial fees
+    zh: 附加费
+  sla_or_kpi:
+    en: SLA/KPI
+    zh: 服务协议/KPI
+  custom_fields:
+    en: Custom fields
+    zh: 自定义字段
+  locations:
+    en: Locations
+    zh: 地区
+
+tariff_text_field:
+  category: text_field
+  name:
+    index: 0
+  starting_period:
+    index: 4
+  validity_period:
+    index: 10
+  origin:
+    index: 17
+  destination:
+    index: 19
+  kpi_picked_on_time:
+    index: -7
+  kpi_delivered_on_time:
+    index: -6
+  kpi_c_free_orders:
+    index: -5
+  kpi_d_free_orders:
+    index: -4
+
+tariff_filter:
+  category: filter
+  partner:
+    index: 0
+  cargo_class:
+    index: 1
+  type:
+    index: 2
+  negotiable:
+    index: 3
+  sla_and_kpi:
+    index: 4
+  consolidate_orders:
+    index: 5
+  trans_unit_class:
+    index: 6
+  transport_mode:
+    index: 7
+  ltl_truck_type:
+    index: 8
+  unit:
+    index: 9
+  volumetric_conversion:
+    index: 10
+
+tariff_table:
+  category: tables
+  origin_table:
+    index: 0
+  destination_table:
+    index: 1
+
+tariff_button:
+  category: button
+  add_origin:
+    en: Add origin
+    zh: 增加始发地
+  add_destination:
+    en: Add destination
+    zh: 增加目的地
+  add_range:
+    en: Add range
+    zh: /添加区间.*/

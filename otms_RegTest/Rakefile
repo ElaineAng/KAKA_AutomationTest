@@ -1,0 +1,91 @@
+task default: %w(demo)
+
+desc 'install system dependence (Ubuntu only)'
+task :install do
+  apt_commands = %W(libssl-dev libreadline-dev libffi-dev g++
+                    postgresql libpq-dev firefox xvfb)
+  gem_commands = %W(sources\ --remove\ https://rubygems.org/
+                    sources\ --add\ https://ruby.taobao.org/
+                    update\ --system
+                    update
+                    install\ bundler)
+  apt_commands.each { |c| sh "sudo apt-get install #{c}" }
+  gem_commands.each { |c| sh "gem #{c}"  }
+  sh 'bundler install'
+  sh 'mkdir log' unless Dir.exist?('log')
+end
+
+desc 'initialize all required test data'
+task :init, [:username, :password, :role] do |t, args|
+  role = args.role ? args.role.to_sym : :sr
+  ruby "bin/_init.rb #{role} #{args.username} #{args.password}"
+end
+
+desc 'demo'
+task :demo, [:orders, :mail] do |t, args|
+  ruby "#{t}.rb #{args.orders} #{args.mail}"
+end
+
+tasks = { oc: 'Order Center',
+          dc: 'Dispatch Center',
+          api: 'Core Api',
+          xtt: 'XTT mobile app',
+          driver: 'Driver mobile App' }
+
+tasks.each do |t, d|
+  actions = Dir.glob("bin/#{t}_*.rb").sort
+  desc "[oTMS regression] #{d}"
+  task t do
+    actions.each { |action| ruby action }
+  end
+end
+
+desc 'build new oTMS application'
+task :build, [:branch, :database] do |t, args|
+  ruby "etc/start_otms.rb #{args.branch} #{args.database}"
+end
+
+desc 'stop oTMS application'
+task :stop do
+  ruby 'etc/start_otms.rb --stop'
+end
+
+desc 'start oTMS application'
+task :start do
+  ruby 'etc/start_otms.rb --start'
+end
+
+desc 'initialize enviroment'
+task :env, [:id, :host] do |t, args|
+  ruby "etc/init_enviroment.rb #{args.id} #{args.host}"
+end
+
+desc 'request oTMS API'
+task :request, [:api_path, :api_method, :file, :type, :counts] do |t, args|
+  type = args.type ? args.type : args.file.split('.')[-1]
+  count = args.counts ? args.counts.to_i : 1
+  count.times do
+    ruby "etc/request.rb #{args.api_path} #{args.api_method} #{args.file} #{type} --debug"
+  end
+end
+
+desc 'spec'
+task :spec, [:spec_name, :example] do |t, args|
+  require 'rspec/core/rake_task'
+  example = "--example '#{args.example}'" if args.example
+  RSpec::Core::RakeTask.new do |st|
+    st.rspec_opts = "--format d --color #{example}"
+    st.pattern = "spec/#{args.spec_name}_spec.rb"
+  end
+end
+
+desc 'initialize orders for mobile app'
+task :orders, [:action] do |t, args|
+  action = args.action ? "--#{args.action}" : nil
+  ruby "etc/init_mobile_order.rb #{action}"
+end
+
+desc 'initialize tariffs for auto-dispatch'
+task :tariffs do
+  ruby 'etc/init_online_tariff.rb'
+end

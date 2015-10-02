@@ -1,0 +1,129 @@
+---
+new:
+  location: 上海总部
+  ship_from: 上海西方路仓库 / 上海西方
+  ship_from_remark: 发货备注
+  ship_to: 苏州北方路仓库 / 苏州北方
+  ship_to_remark: 收货备注
+  product: 苹果
+  product_qty: 100
+  pickup_date: 2015.02.16
+  lead_time: 3
+  suggested_tariff: "UPDATE 6: 我的小伙伴2"
+draft:
+  location: 上海总部
+  ship_from: 上海西方路仓库 / 上海西方
+  ship_from_remark: 发货备注
+  ship_to: 苏州北方路仓库 / 苏州北方
+  ship_to_remark: 收货备注
+  product: 苹果
+  product_qty: 100
+  pickup_date:
+  lead_time:
+  delivery_date:
+sp_new:
+  client: oApple
+  location: 浦东分部
+  ship_from_name: 上海浦东仓库
+  ship_from_origin: 200***
+  ship_from_address: 上海东方路1号
+  ship_from_contact: Chao Li
+  ship_from_mobile: 18601757683
+  ship_from_remark: SP发货备注
+  ship_to_name: 合肥西仓
+  ship_to_destination: 200***
+  ship_to_address: 上海东方路1号
+  ship_to_contact: Chao Li
+  ship_to_mobile: 18601757683
+  ship_to_remark: SP收货备注
+  weight: 3000
+  volume: 100
+  pickup_date: 2015.02.16
+  lead_time: 3
+  base_rate: 100
+  other_fees: 1000
+sp_draft:
+  client: oApple
+  location: 浦东分部
+  ship_from: 上海浦东仓库
+  ship_from_remark: SP发货备注
+  ship_to: 合肥西仓
+  ship_to_remark: SP收货备注
+  product: 黄瓜
+  product_qty: 100
+  pickup_date: 2015.02.16
+  lead_time: 3
+  base_rate:
+  other_fees:
+edit:
+  location: 上海总部
+  ship_from: 上海东方路仓库
+  ship_from_remark: 发货备注ed
+  ship_to: 苏州南方路仓库
+  ship_to_remark: 收货备注ed
+  product: 西瓜
+  product_qty: 99
+  pickup_date: 2015.02.17
+  lead_time: 4
+edit_online:
+  location: 浦东分部
+  ship_from_remark: 发货备注sp
+  ship_to_remark: 收货备注sp
+  transport_remark: 运输备注sp
+  pickup_remark: 提货备注sp
+  delivery_remark: 送货备注sp
+clone:
+  erp:
+  location: 上海总部
+  ship_from: 上海东方路仓库
+  ship_from_remark: 发货备注new
+  ship_to: 苏州南方路仓库
+  ship_to_remark: 收货备注new
+  product: 西瓜
+  product_qty: 98
+  pickup_date: 2014.11.21
+  lead_time: 4
+dispatch_to_under_allocation:
+  location: 上海总部
+  ship_from: 上海西方路仓库 / 上海西方
+  ship_from_remark: 发货备注
+  ship_to: 苏州北方路仓库 / 苏州北方
+  ship_to_remark: 收货备注
+  product: 苹果
+  product_qty: 100
+  pickup_date: 2015.02.16
+  lead_time: 4
+dispatch_but_incomplete:
+  location: 上海总部
+  ship_from: 上海东方路仓库
+  ship_from_remark: 发货备注
+  ship_to: 苏州南方路仓库
+  ship_to_remark: 收货备注
+  product: 苹果
+  product_qty: 100
+  pickup_date: 2014.12.19
+newFullField:
+  ship_from: 上海西方路仓库 / 上海西方
+  ship_from_remark: 发货备注
+  loading: True
+  ship_to: 苏州北方路仓库 / 苏州北方
+  ship_to_remark: 送货备注
+  unloading: True
+  product: 苹果
+  proQty: 100
+  cargoClass: 1. 普通货物
+  unitClass: 散箱，可堆叠，人工装卸货
+  transMode: 零担
+  truckType: 厢式车
+  transMark: 运输备注
+  truckLength: 8.0
+  truckCapacity: 10/43 (最大值)
+  loadingMeter: 5
+  pickup_date: 2015.02.17
+  pickupTime: 工作时间 (8:00-18:00)
+  deliveryDate: 2014.11.28
+  deliveryTime: 全天 (24小时)
+  pickupMark: 提货备注
+  deliveryMark: 收货备注
+bulk_update_pickup_date:
+  date: 14-6-1

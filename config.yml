@@ -1,0 +1,19 @@
+---
+# env could be: uat, demo, production, or user_defined
+env: uat
+
+# in kaka choose the environment
+env_address:
+  user_defined: http://192.168.1.220:8080/opentms-webService
+
+# use ddms to get the device_id
+device_id: FGWE4WSQO6UZZZG4PSC2WME3
+
+
+# path to the order that get imported
+import_order: /Users/elaine/git/kaka-automation-test/import_order.xml
+
+
+
+
+

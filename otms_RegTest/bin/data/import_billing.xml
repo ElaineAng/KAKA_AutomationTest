@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<externalBillingImportRequest login="" password="" version="0.1">
+  <carrierCode></carrierCode>
+  <billing>
+    <name></name>
+    <billDate>2014-11-01T00:00:00+08:00</billDate>
+    <orders>
+      <externalOrderNumber></externalOrderNumber>
+      <partnerOrderNumber></partnerOrderNumber>
+      <pickupDate>2014-11-12T18:21:00+08:00</pickupDate>
+      <pickupSlaDate>2014-11-12T00:00:00+08:00</pickupSlaDate>
+      <deliveryDate>2014-11-13T14:46:00+08:00</deliveryDate>
+      <shipFromProvince>天津</shipFromProvince>
+      <shipFromTown>天津市</shipFromTown>
+      <shipFromName>shipFromNamee</shipFromName>
+      <shipToProvince>广东省</shipToProvince>
+      <shipToTown>汕头市</shipToTown>
+      <shipToName>shipToNamee</shipToName>
+      <totalWeight>111.000</totalWeight>
+      <finalRate>94.60</finalRate>
+      <remark>remarkk</remark>
+      <!-- <customFields>
+        <customText1>jackjones官方旗舰</customText1>
+        <customText4>2014-11-12 10:46:14</customText4>
+        <customText5>780728350429</customText5>
+        <customText6>858430241556044</customText6>
+        <customText7>B1</customText7>
+        <customNum2>0.410</customNum2>
+        <customNum4>60.00</customNum4>
+        <customEnum1>2</customEnum1>
+      </customFields> -->
+    </orders>
+    <originalTotal>120.00</originalTotal>
+    <rateAdjustment>1.00</rateAdjustment>
+    <finalTotal>10000.00</finalTotal>
+  </billing>
+  <lastRequest>true</lastRequest>
+</externalBillingImportRequest>

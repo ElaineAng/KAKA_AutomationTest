@@ -1,0 +1,50 @@
+---
+tab:
+  node: div
+  class: v-captiontext
+
+tables:
+  node: table
+  class: v-table-table
+
+button:
+  node: span
+  class: v-button-caption
+
+text:
+  node: span
+
+menu:
+  node: span
+  class: v-menubar-menuitem-caption
+
+radio:
+  node: label
+
+checkbox:
+  node: checkbox
+
+text_0:
+  node: div
+  class: v-captiontext
+  index: 0
+
+text_1:
+  node: div
+  class: v-captiontext
+  index: 1
+
+preview_field:
+  node: div
+  class: v-label v-label-order-center-preview-field order-center-preview-field
+
+preview_section:
+  node: div
+  class: v-gridlayout v-gridlayout-order-center-preview-section order-center-preview-section
+
+filter:
+  node: div
+  class: v-filterselect-button
+
+text_field:
+  node: text_field

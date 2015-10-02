@@ -1,0 +1,30 @@
+---
+home:
+  username:
+    node: text_field
+  password:
+    node: text_field
+    index: 1
+  login:
+    category: button
+  logo:
+    node: img
+    src: /.*loginLogo.png/
+
+mam:
+  logout:
+    category: button
+    en: Logout
+    zh: Logout
+
+sub_tab:
+  category: button
+  otms_companies:
+    en: OTMS Companies
+    zh: OTMS Companies
+
+access:
+  category: button
+  auto_process:
+    en: Can auto process imported order
+    zh: Can auto process imported order

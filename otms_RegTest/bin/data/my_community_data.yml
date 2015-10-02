@@ -1,0 +1,35 @@
+---
+:init:
+  :name: TESTBJ INIT TARIFF
+  :partner: TESTBJ.*
+  :cargo_class: 1. 普通货物
+  :trans_unit_class: A、散箱，可堆叠，人工装卸货
+  :starting_period:
+  :validity_period:
+  :transport_mode: 零担
+  :unit: 立方米
+  :volumetric_conversion: 标准.*
+  :kpi:
+    :picked_on_time: 80
+    :delivered_on_time: 90
+    :c_free_orders: 50
+    :d_free_orders: 60
+  :lanes:
+    - :origin: '2011'
+      :destination: '2151'
+      :rates:
+        :min: 500
+        :_55_less: 30
+        :_55_to_555: 20
+        :_555_more: 10
+      :lead_time: 3
+    - :origin: '2011'
+      :destination: '2153'
+      :rates:
+        :min: 480
+        :_55_less: 28
+        :_55_to_555: 18
+        :_555_more: 8
+      :lead_time: 4
+:init_sp:
+  :type: 成本价

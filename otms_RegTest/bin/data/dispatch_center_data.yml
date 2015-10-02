@@ -1,0 +1,13 @@
+---
+sr:
+  tariff: 'UPDATE 6: 我的小伙伴2'
+  truck:
+    driver: SJ1
+    plate: 沪A11111
+  truck_other:
+    driver: 迈克尔哟哟
+    plate: 沪A99999
+sp:
+  truck:
+    driver: SP小李君
+    plate: 沪B11110

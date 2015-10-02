@@ -1,0 +1,93 @@
+---
+resource_id:
+
+# Change environment procedure
+  env_production: com.opentrans.driver:id/product_rb
+
+  env_demo: com.opentrans.driver:id/demo_rb
+
+  env_uat: com.opentrans.driver:id/uat_rb
+
+  env_click: com.opentrans.driver:id/userdefined_rb
+
+  env_edit: com.opentrans.driver:id/userdefined_edit
+
+# Activation procedure
+  get_started: com.opentrans.driver:id/get_started
+
+  phone_number: com.opentrans.driver:id/phone_number
+
+  get_activation_code: com.opentrans.driver:id/send_code
+
+  activation_code: com.opentrans.driver:id/activation_code  # the textfield for inputting activation code
+
+  activate_device: com.opentrans.driver:id/activate
+
+# Search order procedure
+  magnifier: com.opentrans.driver:id/search_menu_item
+
+  search_text: com.opentrans.driver:id/abs__search_src_text
+
+# Pickup and delivery procedure
+  report_pickup: com.opentrans.driver:id/milestone_pickup
+
+  Report_Pickup: com.opentrans.driver:id/ok_btn
+
+  report_delivery: com.opentrans.driver:id/milestone_delivery
+
+  Report_Delivery: com.opentrans.driver:id/ok_btn
+
+# Transit event, cargo damage and lost procedure
+  upload_photo: com.opentrans.driver:id/take_photo_btn  # upload from local and take picture share the same id
+
+  cargo_damage: com.opentrans.driver:id/has_damage
+
+  damage_num: com.opentrans.driver:id/damaged
+
+  cargo_lost: com.opentrans.driver:id/has_loss
+
+  lost_num: com.opentrans.driver:id/lost
+
+  comments: com.opentrans.driver:id/comments
+
+  transit_event: com.opentrans.driver:id/report_exception
+
+# Batch pickup procedure
+  batch_total: com.opentrans.driver:id/total  # Expandable list view total quantities
+
+  batch_tick: com.opentrans.driver:id/check_flag
+
+  batch_pickup: com.opentrans.driver:id/batch_pickup_menu_item
+
+# Others
+  order_number: com.opentrans.driver:id/order_number
+
+  tab_title: com.opentrans.driver:id/tab_title
+
+  bar_title: android:id/action_bar_title
+
+  progress_details: com.opentrans.driver:id/value_text  # In order details page
+
+  new_dot: com.opentrans.driver:id/new_icon
+
+  ok: com.opentrans.driver:id/ok_btn
+
+class_name:
+  relative_layout: android.widget.RelativeLayout
+
+  image_button: android.widget.ImageButton
+
+xpath:
+  truck_logo: //android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]
+
+  truck_logo_mini: //android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]
+
+  compulsorily_refresh: //android.widget.ListView[1]/android.widget.LinearLayout[3]
+
+  batch_pickup: //android.widget.ListView[1]/android.widget.LinearLayout[4]
+
+  mark_all: //android.widget.ListView[1]/android.widget.LinearLayout[1]
+
+  batch_gather: //android.view.View[1]/android.widget.FrameLayout[2]/android.widget.TabHost[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.TabHost[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ExpandableListView[1]/android.widget.RelativeLayout[1]
+
+  orders_in_mark_all: //android.view.View[1]/android.widget.FrameLayout[2]/android.widget.TabHost[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.TabHost[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ExpandableListView[1] # /android.widget.RelativeLayout[2]

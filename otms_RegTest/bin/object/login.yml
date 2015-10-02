@@ -1,0 +1,35 @@
+---
+home:
+  logo:
+    node: img
+    src: /.*loginLogo.png/
+  username:
+    node: text_field
+  password:
+    node: input
+    type: password
+  login:
+    category: button
+    en: Login
+    zh: 登录
+
+otms:
+  logo:
+    node: img
+    src: /.*frontPageLogo.png/
+  logout:
+    category: button
+    en: Logout
+    zh: 退出
+  my_preferences:
+    category: button
+    en: My Preferences
+    zh: 我的设置
+  user_settings:
+    category: tab
+    en: User settings
+    zh: 个人设置
+  interface_language:
+    node: label
+    en: English
+    zh: 中文

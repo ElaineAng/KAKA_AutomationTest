@@ -1,0 +1,46 @@
+---
+edit_order:
+  en: Order saved in inbox.
+  zh: 订单保存成功。
+edit_draft:
+  en: Order saved in Draft Box.
+  zh: 订单保存到草稿箱。
+clone_online_order:
+  en: Some of selected orders cannot be cloned due to security reasons.
+  zh: 因为安全原因，某些所选订单不能被复制。
+delete_order:
+  en: Orders deleted
+  zh: 订单已删除
+delete_invalid_order:
+  en: Order cannot deleted
+  zh: 订单不能删除
+one_click_dispatch:
+  en: Order saved and dispatched
+  zh: 订单保存，并已经分配给承运商
+allocate_only:
+  en: Order saved and allocated
+  zh: 订单分配并预分配
+batch_dispatch:
+  en:
+  zh: 个订单被
+  directly:
+    en:
+    zh: 分配
+  allocate_only:
+    en:
+    zh: 预分配
+merge_orders:
+  en: Created new merged order \S+ and saved in the inbox
+  zh: 创建新的合并订单\S+，保存在收件箱
+merge_drafts:
+  en: Created new merged order \S+ and saved as draft
+  zh: 创建新的合并订单\S+，保存在草稿箱
+unmerge_order:
+  en: Order has been unmerged into original ones
+  zh: 订单合并取消，还原为合并前状态
+bulk_update_pickup_date:
+  en: \d of \d orders updated
+  zh: \d of \d 订单更新
+bulk_update_pickup_date_of_online_orders:
+  en: Orders can not be updated
+  zh: 订单不能被更新

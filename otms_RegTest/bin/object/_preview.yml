@@ -1,0 +1,44 @@
+---
+main_information:
+  category: preview_field
+  order_no:
+    index: 0
+  client:
+    index: 2
+  location:
+    index: 5
+  remark:
+    index: 6
+
+time_schedule:
+  category: preview_field
+  pickup_date:
+    index: 0
+  lead_time:
+    index: 2
+  delivery_date:
+    index: 3
+
+ship_from:
+  category: preview_field
+  ship_from:
+    index: 0
+  ship_from_remark:
+    index: 2
+
+ship_to:
+  category: preview_field
+  ship_to:
+    index: 0
+  ship_to_remark:
+    index: 2
+
+cargo:
+  product_qty:
+    category: preview_field
+    index: 0
+  product:
+    category: table
+    row: 0
+    col: 0
+    sub: div

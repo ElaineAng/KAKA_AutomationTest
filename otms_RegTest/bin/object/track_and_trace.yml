@@ -1,0 +1,255 @@
+---
+tab:
+  category: button
+  en: 'Track & Trace'
+  zh: 订单追踪
+
+sub_tab:
+  category: tab
+  alerted:
+    en: /Alerted.*/
+    zh: /预警.*/
+  all:
+    en: /All.*/
+    zh: /所有.*/
+  exceptions:
+    en: /Exceptions.*/
+    zh: /异常.*/
+  received:
+    en: /Received.*/
+    zh: /收到.*/
+  released:
+    en: /Released.*/
+    zh: /释放.*/
+  dispatched:
+    en: /Dispatched.*/
+    zh: /待提货.*/
+  vendor_released:
+    en: /Vendor released.*/
+    zh: /承运商发送.*/
+  vendor_dispatched:
+    en: /Vendor dispatched.*/
+    zh: /承运商分配.*/
+  picked:
+    en: /Picked.*/
+    zh: /待送货.*/
+  delivered:
+    en: /Delivered.*/
+    zh: /待回单.*/
+  pod_pending:
+    en: /POD Pending.*/
+    zh: /回单处理中.*/
+  pod_to_accept:
+    en: /POD To Accept.*/
+    zh: /回单待审核.*/
+  pod_accepted:
+    en: /POD Accepted.*/
+    zh: /回单已接受.*/
+  bill:
+    en: /Bill.*/
+    zh: /待结账.*/
+  vendor_bill:
+    en: /Vendor bill.*/
+    zh: /承运商帐单.*/
+  bill_confirm:
+    en: /Bill confirm.*/
+    zh: /帐单确认.*/
+  vendor_bill_confirmed:
+    en: /Vendor bill confirmed.*/
+    zh: /承运商帐单确认.*/
+  closed:
+    en: /Closed.*/
+    zh: /已结账.*/
+
+tabs_table:
+  order:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/div/div[2]/div/div/input[3]'
+  sr_remark:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/div/div[2]/div/div/input[4]'
+  sp_remark:
+    node: text_field
+    xpath: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/div/div[2]/div/div/input[5]'
+  upload_epod:
+    node: file_field
+    type: file
+    node_class: gwt-FileUpload
+
+tabs_button:
+  category: button
+  update:
+    en: Update
+    zh: 更新
+  cancel:
+    en: Cancel
+    zh: 取消
+  execute_filters:
+    en: Execute filters
+    zh: 执行筛选条件
+  clear_filters:
+    en: Clear filters
+    zh: 清除筛选条件
+  bulk_pickup:
+    en: Bulk pickup update
+    zh: 批量更新提货
+  bulk_delivery:
+    en: Bulk delivery update
+    zh: 批量更新送货
+  upload_epods:
+    en: Batch upload ePOD
+    zh: 批量上传回单
+  accept_epod:
+    en: Accept
+    zh: 接受
+  reject_epod:
+    en: Reject
+    zh: 退回
+  accept_epods:
+    en: Accept ePODs
+    zh: 批量接受电子回单
+  reject_epods:
+    en: Reject ePODs
+    zh: 批量拒绝电子回单
+  register_b:
+    en: In-transit event \(B\)
+    zh: 在途追踪\(B\)
+  batch_register_b:
+    en: Register exception B
+    zh: 批量更新在途事件(B)
+  register_c:
+    en: Cargo Damage (C)
+    zh: 破损(C)
+  register_d:
+    en: Cargo Shortage (D)
+    zh: 短少(D)
+  register_e:
+    en: Missed/Wrong Delivery (E)
+    zh: 没有配送/错误的配送(E)
+  register_f:
+    en: Wrong/Missing POD (F) for
+    zh: '回单不合格/错误回单信息(F):'
+  register_g:
+    en: Special Charges\/Compensation \(G\) for
+    zh: '特殊费用\(G\):'
+  # batch_register_g:
+  #   en: Register Exception G
+  #   zh: 批量记录特殊费用(G)
+  #   xpath1: '//*[@id="ROOT-2521314"]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[2]/div/div/div[2]/div'
+  #   xpath2: '/div/div/div[2]/div/div/div'
+  #   xpath3: '/div/div/span/span'
+  #   sub_tab:
+  #     released:
+  #       index_tab:
+  #         sr: 6
+  #         sp: 6
+  #       index_button: 1
+  #     dispatched:
+  #       index_tab:
+  #         sr: 7
+  #         sp: 7
+  #       index_button: 2
+  #     picked:
+  #       index_tab:
+  #         sr: 8
+  #         sp: 10
+  #       index_button: 3
+  #     delivered:
+  #       index_tab:
+  #         sr: 9
+  #         sp: 11
+  #       index_button: 1
+  register_h:
+    en: Complaint (H) for
+    zh: '投诉\(H\):'
+  register_z:
+    en: Wrong Milestone Update (Z)
+    zh: 错误的信息更新(Z)
+  batch_register_z:
+    en: Register Exception Z
+    zh: 批量记录错误的信息更新(Z)
+
+  register_exception:
+    en: Register exception
+    zh: 报告异常
+  batch_register_exception:
+    en: Register Exception for
+    zh: 记录异常事件给
+
+  register:
+    en: Register
+    zh: 提交
+  batch_register:
+    en: Register exception
+    zh: 记录异常事件
+
+timeline:
+  upload_epod:
+    node: span
+    xpath: '/html/body/div[4]/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div[1]/div/div/span/span'
+
+  # exception:
+  #   node: div
+  #   xpath1: '/html/body/div[4]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div/div[2]/div/div/div/div[1]/div/div/div/div[1]/div/div/div'
+  #   xpath2: '/div/div/div/div[2]/div/div/div'
+  #   div_text:
+  #     xpath: '/div/div'
+  #   source:
+  #     xpath: '/div/div/div/div[1]/div/div'
+  #   milestone:
+  #     xpath: '/div/div/div/div[2]/div/div'
+  #   detail:
+  #     xpath: '/div/div/div/div[3]/div/div'
+  #   example:
+  #     xpath: '/div[1]'
+
+  # register:
+  #   node: div
+  #   xpath: '/html/body/div[7]/div'
+  # batch_register:
+  #   node: div
+  #   xpath: '/html/body/div[4]/div'
+
+  # g:
+  #   index_div:
+  #     node: div
+  #     xpath: '/div/div/div[3]/div/div/div/div[2]'
+  #   index_batch_div:
+  #     node: div
+  #     xpath: '/div/div/div[3]/div/div/div/div[3]'
+  #   special_charge:
+  #     node: text_field
+  #     xpath: '/div/div/div/div[1]/div[2]/input'
+  #   compensation:
+  #     node: text_field
+  #     xpath: '/div/div/div/div[3]/div[2]/input'
+  #   option:
+  #     node: label
+  #     node_parent: radio
+  #     by_amount:
+  #       en: Register RMB amount
+  #       zh: 金额按照输入的费用（RMB）
+  #     by_freight:
+  #       en: Register as % of freight cost
+  #       zh: 金额按照运输运费的百分比
+  #     by_insurance:
+  #       en: Register as % of declared shipment value
+  #       zh: 金额按照投保价值百分比
+  #     by_rate:
+  #       en: Value by percentage of Total Rate
+  #       zh: 金额按照总费用的百分比
+  #   total:
+  #     vendor:
+  #       charge:
+  #         en: Total vendor charge
+  #         zh: 承运商费用总计
+  #       compensation:
+  #         en: Total vendor compensation
+  #         zh: 承运商赔偿总计
+  #     client:
+  #       charge:
+  #         en: Total client charge
+  #         zh: 客户费用总计
+  #       compensation:
+  #         en: Total client compensation
+  #         zh: 客户收费总计

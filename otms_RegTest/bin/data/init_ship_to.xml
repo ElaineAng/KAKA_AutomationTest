@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<shipPointImportRequest version="0.1" login="" password="">
+  <shipPoints>
+    <shipPoint sequence="1">
+      <clientCode></clientCode>
+      <clientReferenceNumber>company-20141231</clientReferenceNumber>
+      <type></type>
+      <companyName>苏州北方路仓库</companyName>
+      <myLocation></myLocation>
+      <selectType>1</selectType>
+      <!-- <selectedLocations>
+        <location>Shanghai DC</location>
+        <location>Hangzhou DC</location>
+      </selectedLocations> -->
+      <externalId>苏州北方</externalId>
+      <province>江苏</province>
+      <town>苏州</town>
+      <county>昆山市</county>
+      <address>昆山北方路2号</address>
+      <zipcode>215300</zipcode>
+      <contact>
+        <name>Chao Li</name>
+        <phone>24170000</phone>
+        <phoneAreaCode>021</phoneAreaCode>
+        <mobile>18601757683</mobile>
+        <email>otmst@sina.cn</email>
+      </contact>
+      <loading>true</loading>
+      <supportXtt>true</supportXtt>
+      <remark></remark>
+      <timeWindow>2</timeWindow>
+      <weekDay>1</weekDay>
+      <!-- <customFields>
+        <customText1>sh</customText1>
+        <customNum1>100</customNum1>
+      </customFields> -->
+    </shipPoint>
+  </shipPoints>
+</shipPointImportRequest>

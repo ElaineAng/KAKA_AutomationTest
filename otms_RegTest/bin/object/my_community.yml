@@ -1,0 +1,150 @@
+---
+tab:
+  category: button
+  en: My Community
+  zh: 我的资源
+
+sub_tab:
+  category: tab
+  my_vendors:
+    en: My Vendors
+    zh: 我的承运商
+  my_network:
+    en: My Network
+    zh: 合作伙伴
+  my_invitations:
+    en: My Invitations
+    zh: 邀请伙伴
+  my_tariffs:
+    en: My Tariffs
+    zh: 价格管理
+  my_lanes:
+    en: My Lanes
+    zh: 路线设置
+  vendor_lanes:
+    en: Vendor Lanes
+    zh: 路线设置（承运商）
+  my_trucks:
+    en: My Trucks
+    zh: 我的车辆
+  my_master_data:
+    en: My MasterData
+    zh: 基础数据
+  my_custom_fields:
+    en: My Custom Fields
+    zh: 自定义字段
+  my_locations:
+    en: My Locations
+    zh: 地区设置
+  my_users:
+    en: My Users
+    zh: 用户管理
+  my_company:
+    en: My Company
+    zh: 我的公司
+  ship_from:
+    en: ShipFrom
+    zh: 发货方
+  ship_to:
+    en: ShipTo
+    zh: 收货方
+  cargo:
+    en: Cargo/Products
+    zh: 产品
+
+my_vendors:
+  company_name:
+    node: text_field
+    index: 1
+  company_code:
+    node: text_field
+    index: 3
+  tax_code:
+    node: text_field
+    index: 2
+  business_license:
+    node: text_field
+    index: 4
+  trucking_license:
+    node: text_field
+    index: 5
+
+my_network:
+  role:
+    category: filter
+    index: -1
+
+my_master_data:
+  import:
+    category: button
+    en: Import
+    zh: 导入
+  xls_file:
+    node: file_field
+  new:
+    category: button
+    index: 1
+    en: New
+    zh: 新增
+
+my_trucks:
+  invite:
+    category: button
+    en: Invite
+    zh: 邀请
+
+my_locations:
+  name:
+    node: text_field
+    index: 0
+  third_party_operator:
+    node: checkbox
+    index: 0
+  third_party_name:
+    node: text_field
+    index: 1
+  archive:
+    node: checkbox
+    index: 1
+
+my_invitations:
+  invite:
+    category: button
+    en: Invite
+    zh: 我要邀请
+  send_invite:
+    category: button
+    en: Send invite
+    zh: 发送邀请
+  email:
+    node: text_field
+    index: -4
+  invitation_text:
+    node: textarea
+    index: 0
+  select_relationship:
+    category: filter
+    index: -2
+  invitation_code:
+    node: text_field
+    index: -1
+  confirm_code:
+    category: button
+    en: Confirm code
+    zh: 确认
+  accept:
+    category: button
+    en: Accept
+    zh: 接受
+
+my_tariffs:
+  category: button
+  negotiation:
+    en: Negotiation
+    zh: 议价
+  send_tariff:
+    en: Send tariff
+    zh: 发送议价
+  accept:
+    en: Accept
+    zh: 接受

@@ -1,0 +1,155 @@
+---
+preview:
+  category: preview_section
+  main_information:
+    index: 0
+  time_schedule:
+    index: 1
+  ship_from:
+    index: 2
+  ship_to:
+    index: 3
+  cargo:
+    index: 4
+  transport_mode:
+    index: 5
+  fee:
+    index: 6
+
+release_option:
+  category: button
+  adjust_dates:
+    en: Adjust dates
+    zh: 调整日期
+  keep_dates:
+    en: Keep dates
+    zh: 日期不变
+
+mam_tab:
+  category: tab
+  api_access:
+    en: API access
+    zh: API access
+  custom_field:
+    en: Custom fields
+    zh: Custom fields
+  text_fields:
+    en: Text Fields
+    zh: Text Fields
+  numeric_fields:
+    en: Numeric Fields
+    zh: Numeric Fields
+  enums_fields:
+    en: Enums Fields
+    zh: Enums Fields
+
+mam_button:
+  category: button
+  grant_api:
+    en: Grant order import access
+    zh: Grant order import access
+  revoke_api:
+    en: Revoke order import access
+    zh: Revoke order import access
+  set_custom_field:
+    en: Set custom fields rights
+    zh: Set custom fields rights
+  save:
+    en: save
+    zh: save
+
+mam_filter:
+  category: filter
+  custom_field:
+    index: 1
+
+labels:
+  node: divs
+  class: v-label
+
+new_truck:
+  cargo_class:
+    category: filter
+    index: 0
+  truck_type:
+    category: filter
+    index: 1
+  truck_length:
+    category: filter
+    index: 2
+  capacity:
+    category: filter
+    index: 3
+  truck_plate:
+    category: text_field
+    index: 4
+  driver_name:
+    category: text_field
+    index: 6
+  driver_mobile:
+    category: text_field
+    index: 7
+  save:
+    category: button
+  cancel:
+    category: button
+    index: 2
+
+new_product:
+  name:
+    category: text_field
+    index: 0
+  unit:
+    category: filter
+    index: 0
+  stackable:
+    category: filter
+    index: 1
+  unit_length:
+    category: text_field
+    index: 4
+  unit_height:
+    category: text_field
+    index: 5
+  unit_width:
+    category: text_field
+    index: 6
+  unit_weight:
+    category: text_field
+    index: 7
+  external_id:
+    category: text_field
+    index: 8
+
+first:
+  text_field:
+    node: text_field
+  button:
+    category: button
+
+tariff_range:
+  point:
+    node: text_field
+  add_point:
+    category: button
+    en: Add point
+    zh: 增加
+  close:
+    category: button
+    en: Close
+    zh: 关闭
+
+popup:
+  category: button
+  'yes':
+    en: 'YES'
+    zh: 是
+  'no':
+    en: 'NO'
+    zh: 否
+  'confirm':
+    en: 'Yes'
+    zh: 确定
+  'cancel':
+    en: 'Cancel'
+    zh: 取消

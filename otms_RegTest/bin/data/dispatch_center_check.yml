@@ -1,0 +1,5 @@
+---
+failed_tender:
+  message:
+    en: Order pickup date passed. Tender not possible.
+    zh: 该订单提货日期已过，无法询价
